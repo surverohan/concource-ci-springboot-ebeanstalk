@@ -17,4 +17,4 @@ caches:
 
 
 run:
-  path: java/concource-ci-springboot-ebeanstalk/tasks/build/build.sh
+  path: java/src/concource-ci-springboot-ebeanstalk/tasks/build/build.sh
