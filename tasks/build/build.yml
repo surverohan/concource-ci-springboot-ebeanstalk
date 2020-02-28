@@ -15,5 +15,7 @@ outputs:
 caches:
   - path: demo-app-src/.m2
 
+
 run:
-  path: pipeline-src/tasks/build/build1.sh
+  path: /bin/sh
+  args: ["./pipeline-src/tasks/build/build1.sh"]
