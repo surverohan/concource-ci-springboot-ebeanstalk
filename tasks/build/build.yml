@@ -17,5 +17,5 @@ caches:
 
 
 run:
-  path: /tasks/build
+  path: \tasks\build
   args: ["/build.sh"]
