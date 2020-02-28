@@ -17,5 +17,4 @@ caches:
 
 
 run:
-  path: /bin/sh
-  args: ["./pipeline-src/tasks/build/build1.sh"]
+  path: pipeline-src/tasks/build/build.sh
