@@ -17,5 +17,4 @@ caches:
 
 
 run:
-  path: pipeline-src\tasks\build
-  args: ["\build.sh"]
+  path: java/concource-ci-springboot-ebeanstalk/tasks/build/build.sh
