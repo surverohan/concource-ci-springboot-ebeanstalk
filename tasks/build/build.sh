@@ -2,7 +2,7 @@
 
 set -euxo pipefail
 
-pushd demo-app-src/
+pushd graphql-src/
 
 mvn package -Dmaven.repo.local=.m2
 cp target/*.jar ../build/graphql-poc.jar
