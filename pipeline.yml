@@ -9,7 +9,7 @@ resources:
   - name: demo-app-src
     type: git
     source:
-      uri: https://github.com/pmilianbeto/elasticbeanstalk-demo-app.git
+      uri: https://github.com/surverohan/graphqlc.git
       branch: master
 
   - name: demo-app-artifact
