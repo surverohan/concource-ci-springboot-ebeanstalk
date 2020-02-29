@@ -15,7 +15,7 @@ fi
 #
 # Get the build version
 #
-BUILD_VERSION_FILE="./demo-app-artifact/version"
+BUILD_VERSION_FILE="./graphql-artifact/version"
 if [ ! -f ${BUILD_VERSION_FILE} ]; then
     echo "${BUILD_VERSION_FILE} does not exists"
     exit 1
@@ -25,7 +25,7 @@ BUILD_VERSION=$(cat ${BUILD_VERSION_FILE})
 mkdir ./bundle
 pushd ./bundle
 
-cp ../demo-app-artifact/*.jar graphql-poc.jar
+cp ../graphql-artifact/*.jar graphql-poc.jar
 
 eb init ${APPLICATION_NAME} \
     -p "java-8" \
