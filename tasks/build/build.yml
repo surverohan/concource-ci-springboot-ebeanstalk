@@ -6,15 +6,15 @@ image_resource:
   source: { repository: maven, tag: 3.5.0-jdk-8-alpine }
 
 inputs:
-  - name: pipeline-src
-  - name: demo-app-src
+  - name: ci-pipeline
+  - name: graphql-src
 
 outputs:
   - name: build
 
 caches:
-  - path: demo-app-src/.m2
+  - path: graphql-src/.m2
 
 
 run:
-  path: pipeline-src/tasks/build/build.sh
+  path: ci-pipeline/tasks/build/build.sh
