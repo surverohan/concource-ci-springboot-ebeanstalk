@@ -25,7 +25,7 @@ BUILD_VERSION=$(cat ${BUILD_VERSION_FILE})
 mkdir ./bundle
 pushd ./bundle
 
-cp ../demo-app-artifact/*.jar demo-app.jar
+cp ../demo-app-artifact/*.jar graphql-poc.jar
 
 eb init ${APPLICATION_NAME} \
     -p "java-8" \
