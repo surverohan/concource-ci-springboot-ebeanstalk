@@ -6,6 +6,7 @@ image_resource:
   source: { repository: betomorrow/docker-awsebcli }
 
 inputs:
+  - name: pipeline-src
   - name: demo-app-artifact
 
 run:
