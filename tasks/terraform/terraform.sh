@@ -32,10 +32,16 @@ errors=0
 
     echo "BUILDING $env: terraform init"
     terraform init
-    echo
+    echo "BUILDING $env: terraform plan"
+	terraform plan
+	echo "BUILDING $env: terraform plan done ....."
 
-    touch tfplan.txt
-    set +e
-    terraform apply > tfplan.txt
-    planexit=$?
-    set -e
+    echo "BUILDING $env: terraform apply"
+	terraform apply
+	echo "BUILDING $env: terraform apply done ....."
+
+    ## touch tfplan.txt
+    ## set +e
+    ## terraform apply > tfplan.txt
+    ## planexit=$?
+    ## set -e
