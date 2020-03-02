@@ -23,7 +23,7 @@ errors=0
 	echo " pwd -" 
 	pwd
 	ls
-	cd /tmp/build/get
+	cd  ci-pipeline/tasks/terraform
 		echo " pwd -"
 	pwd
 	ls
