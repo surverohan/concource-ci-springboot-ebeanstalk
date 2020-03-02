@@ -20,7 +20,8 @@ export TF_IN_AUTOMATION="true"
 errors=0
 
     echo "****************** BUILDING $env ******************"
-	echo " pwd -" pwd
+	echo " pwd -" 
+	pwd
     cp -R ci-pipeline/tasks/terraform .
   ##  cd terraform-plan-out/dev
 
