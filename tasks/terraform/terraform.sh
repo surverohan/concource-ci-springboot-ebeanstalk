@@ -37,7 +37,7 @@ errors=0
 	echo "BUILDING $env: terraform plan done ....."
 
     echo "BUILDING $env: terraform apply"
-	terraform apply
+	terraform apply -auto-approve
 	echo "BUILDING $env: terraform apply done ....."
 
     ## touch tfplan.txt
