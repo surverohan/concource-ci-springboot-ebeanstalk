@@ -12,10 +12,6 @@ resource "aws_s3_bucket" "bucket" {
     enabled = true
   }
 
-  tags {
-    Name = "tag-s3-graphql-bucket"
-  }
-
   lifecycle_rule {
     enabled = true
 	prefix = "test-scripts"
