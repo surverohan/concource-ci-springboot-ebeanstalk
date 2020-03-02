@@ -27,7 +27,7 @@ errors=0
 		echo " pwd -"
 	pwd
 	ls
-    cp -R ci-pipeline/tasks/terraform .
+  ## CP -R ci-pipeline/tasks/terraform .
   ##  cd terraform-plan-out/dev
 
     echo "BUILDING $env: terraform init"
