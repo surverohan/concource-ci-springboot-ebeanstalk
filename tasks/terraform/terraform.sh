@@ -22,6 +22,11 @@ errors=0
     echo "****************** BUILDING $env ******************"
 	echo " pwd -" 
 	pwd
+	ls
+	cd /tmp/build/get
+		echo " pwd -"
+	pwd
+	ls
     cp -R ci-pipeline/tasks/terraform .
   ##  cd terraform-plan-out/dev
 
